@@ -8,7 +8,27 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarBackgroundColor": "#ffffff"
   },
-  "style": "v2",
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/house.png",
+        "selectedIconPath": "image/house.png",
+        "text": "组件1"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/house.png",
+        "selectedIconPath": "image/house.png",
+        "text": "接口"
+      }
+    ]
+  },
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"

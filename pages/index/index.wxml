@@ -1,1 +1,3 @@
-<web-view src="https://lvmaoya.cn/home"/>
+<view>
+  scene值为：{{ scene }}
+</view>
